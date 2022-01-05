@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #1b1b1b;
+}
+
+.parent {
+  position: relative;
+}
+
+.bg img, .bichoHead img, .bichoManos img, .hostHead img {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+.bg img {
+  width: 100%;
+  height: auto;
+  top: -30vh;
+}
+
+.bichoHead img {
+  top: 60vh;
+}
+
+.bichoManos img {
+  top: 40vh;
+}
+
+.hostHead img {
+  top: -70vh;
+}
+/*# sourceMappingURL=style.css.map */

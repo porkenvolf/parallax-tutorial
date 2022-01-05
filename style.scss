@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(27, 27, 27);
+    
+}
+
+.parent{
+    position: relative;
+
+}
+.bg,.bichoHead,.bichoManos,.hostHead{
+    img{
+        width: 80%;
+        height: auto;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}
+.bg{
+    img{
+        width: 100%;
+        height: auto;
+        top: -30vh;
+    }
+}
+.bichoHead{
+    img{        
+        top: 60vh;
+    }
+}
+.bichoManos{
+    img{        
+        top: 40vh;
+    }
+}
+.hostHead{
+    img{        
+        top: -70vh;
+    }
+}
+

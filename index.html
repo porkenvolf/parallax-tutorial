@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Parallax tutorialt</title>
+  </head>
+  <body>
+    <main>
+      <div class="parent">
+        <div class="bg rellax" data-rellax-speed="-5"><img src="img/bg.jpg"></div>
+        <div class="bichoManos rellax2" data-rellax-speed="-4"><img src="img/bichoManos.png"></div>
+        <div class="bichoHead rellax2" data-rellax-speed="-3"><img src="img/bichoHead.png"></div>
+        
+        <div class="hostHead rellax" data-rellax-speed="-10">
+          
+            <img src="img/Head.png">
+
+          
+          
+        </div>
+      </div>
+
+
+    </main>
+
+    <script src="./javascripts/rellax.min.js"></script>
+    <script src="./javascripts/rellax2.min.js"></script>
+
+    <script>  
+      var rellax = new Rellax2('.rellax2');
+    </script>
+    <script>  
+      var rellax = new Rellax('.rellax');
+    </script>
+
+
+
+  </body>
+</html>
