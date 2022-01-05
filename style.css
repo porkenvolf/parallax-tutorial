@@ -9,6 +9,8 @@
 
 .parent {
   position: relative;
+  height: 200vh;
+  overflow-y: hidden;
 }
 
 .bg img, .bichoHead img, .bichoManos img, .hostHead img {
@@ -27,11 +29,11 @@
 }
 
 .bichoHead img {
-  top: 60vh;
+  top: 10vh;
 }
 
 .bichoManos img {
-  top: 40vh;
+  top: 0vh;
 }
 
 .hostHead img {
